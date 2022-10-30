@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+    <test verbose="2" preserve-order="true" name="C:/Users/bejoy/IdeaProjects/Selenium_Basics">
+        <parameter name="username" value="automatizeanything@gmail.com"></parameter>
+        <parameter name="password" value="Techmasters@123"></parameter>
+
+      <classes>
+      <!--    <class name="TestNgPkg.dropdownVal"></class>
+          <class name="TestNgPkg.LoginValidation"></class>-->
+          <!--<class name="TestNgPkg.LoginValidation_Parameters"></class>-->
+          <class name="TestNgPkg.TestNgParallel"></class>
+      </classes>
+
+    </test>
+</suite>
